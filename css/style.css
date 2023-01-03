@@ -19,6 +19,14 @@
    1. Algemene style 
    ================= */
 
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Special+Elite&display=swap');
 
